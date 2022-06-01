@@ -8,7 +8,7 @@
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="seL4" fetch="https://github.com/seL4/"/>
   <remote name="sel4proj" fetch="https://github.com/SEL4PROJ/"/>
-  <remote name="jrbt" fetch="https://github.com/Yermin9/jrbt_test/"/>
+  <remote name="y9" fetch="https://github.com/Yermin9/"/>
    
   
   <default remote="seL4" revision="master"/>
@@ -24,7 +24,7 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="b1802966d8023fb0159e1c41ec39d0db97f9b9c2" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
-  <project name="jrbt.git" path="projects/jrbt" remote="jrbt" revision="1735432a4077fa7d3e2b1be0a0d682d436e1a711" upstream="main" dest-branch="master"/>
+  <project name="jrbt.git" path="projects/jrbt" remote="y9" revision="1735432a4077fa7d3e2b1be0a0d682d436e1a711" upstream="main" dest-branch="master"/>
   <project name="sel4test.git" path="projects/sel4test" revision="ecaf2089a3ab8c3daf895e16fee0b95c9a316c05" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
