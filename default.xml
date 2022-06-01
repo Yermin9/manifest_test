@@ -6,8 +6,8 @@
 <manifest>
   <remote name="nanopb" fetch="https://github.com/nanopb"/>
   <remote name="opensbi" fetch="https://github.com/riscv"/>
-  <remote name="seL4" fetch="."/>
-  <remote name="sel4proj" fetch="../sel4proj"/>
+  <remote name="seL4" fetch="https://github.com/seL4/"/>
+  <remote name="sel4proj" fetch="https://github.com/SEL4PROJ/"/>
   
   <default remote="seL4" revision="master"/>
   
