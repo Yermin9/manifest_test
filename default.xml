@@ -8,7 +8,7 @@
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="seL4" fetch="https://github.com/seL4/"/>
   <remote name="sel4proj" fetch="https://github.com/SEL4PROJ/"/>
-  <remote name="y9" fetch="git@github.com:Yermin9/"/>
+  <remote name="y9" fetch="https://github.comYermin9/"/>
   
   <default remote="seL4" revision="master"/>
   
